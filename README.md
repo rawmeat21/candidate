@@ -98,43 +98,6 @@ You probably don't want to leave all handles empty. Enter at least one of them.
 
 ---
 
-## Usage
-
-Just run the tool and follow the interactive setup:
-
-```
-candidate
-```
-
-You will be prompted for:
-
-|Prompt|Description|
-|---|---|
-|**Platform**|`cf` (Codeforces), `ac` (AtCoder), `lc` (LeetCode), `x` (mixed)|
-|**Time limit**|Contest duration in minutes|
-|**Number of problems**|How many problems to include|
-|**Tags**|Optional comma-separated topic filters (e.g. `dp,graphs`). Not supported in mixed mode|
-
-After setup, a preview of the selected problems is shown. Press **Enter** to start the contest or **Ctrl+C** to abort.
-
-During the contest:
-
-- The timer and solve status update every second.
-- Submissions are checked against the platform every 30 seconds.
-- The contest ends automatically when all problems are accepted, or when time runs out.
-- Press **Ctrl+C** at any time to quit early.
-
----
-
-## Session Cookies
-
-AtCoder and LeetCode require an active session to fetch your submission history and verify solves. `candidate` auto-detects your session cookie from whichever supported browser you use. This requires you to be logged in on both platforms on any supported browser.
-
-Detected cookies are cached in a `.env` file in the project root so subsequent runs are instant. If auto-detection fails (maybe you are not logged in, or the browser is unsupported), the tool will print a clear message explaining how to set the cookie manually in `.env`.
-
-Supported browsers are: **Chrome**, **Brave**, **Firefox**, **Safari**, **Edge**, **Opera**
-
----
 
 ## Installation
 
@@ -229,3 +192,43 @@ AC_SESSION_COOKIE=your_atcoder_session_here
 ```
 
 After you add the session keys, you can proceed safely.
+
+---
+
+## Usage
+
+Just run the tool and follow the interactive setup:
+
+```
+candidate
+```
+
+You will be prompted for:
+
+|Prompt|Description|
+|---|---|
+|**Platform**|`cf` (Codeforces), `ac` (AtCoder), `lc` (LeetCode), `x` (mixed)|
+|**Time limit**|Contest duration in minutes|
+|**Number of problems**|How many problems to include|
+|**Tags**|Optional comma-separated topic filters (e.g. `dp,graphs`). Not supported in mixed mode|
+
+After setup, a preview of the selected problems is shown. Press **Enter** to start the contest or **Ctrl+C** to abort.
+
+During the contest:
+
+- The timer and solve status update every second.
+- Submissions are checked against the platform every 30 seconds.
+- The contest ends automatically when all problems are accepted, or when time runs out.
+- Press **Ctrl+C** at any time to quit early.
+
+---
+
+## Session Cookies
+
+AtCoder and LeetCode require an active session to fetch your submission history and verify solves. `candidate` auto-detects your session cookie from whichever supported browser you use. This requires you to be logged in on both platforms on any supported browser.
+
+Detected cookies are cached in a `.env` file in the project root so subsequent runs are instant. If auto-detection fails (maybe you are not logged in, or the browser is unsupported), the tool will print a clear message explaining how to set the cookie manually in `.env`.
+
+Supported browsers are: **Chrome**, **Brave**, **Firefox**, **Safari**, **Edge**, **Opera**
+
+---
