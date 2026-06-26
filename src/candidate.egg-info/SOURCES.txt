@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/candidate/checkers.py
+src/candidate/config.py
+src/candidate/fetchers.py
+src/candidate/main.py
+src/candidate/network.py
+src/candidate/tracker.py
+src/candidate/ui.py
+src/candidate.egg-info/PKG-INFO
+src/candidate.egg-info/SOURCES.txt
+src/candidate.egg-info/dependency_links.txt
+src/candidate.egg-info/entry_points.txt
+src/candidate.egg-info/requires.txt
+src/candidate.egg-info/top_level.txt

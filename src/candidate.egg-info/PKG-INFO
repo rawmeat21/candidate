@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: candidate
+Version: 0.1.1
+Summary: CLI tool to practice Competitive Programming and DSA
+Requires-Python: >=3.11
+Requires-Dist: browser-cookie3
+Requires-Dist: python-dotenv
+Requires-Dist: requests

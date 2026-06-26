@@ -1,0 +1,21 @@
+[handles]
+codeforces = "your_codeforces_handle_goes_here"
+atcoder    = "your_atcoder_handle_goes_here"
+leetcode   = "your_leetcode_handle_goes_here"
+
+[codeforces]
+tier1       = [1000, 1500]
+tier2       = [1600, 1900]
+recent_max  = 1900
+
+[atcoder]
+tier1       = [1000, 1200]
+tier2       = [1300, 1800]
+recent_max  = 320
+
+[leetcode]
+difficulties = ["MEDIUM", "HARD"]
+recent_max   = 2500
+
+[display]
+show_difficulties = false
