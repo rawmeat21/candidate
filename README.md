@@ -2,6 +2,18 @@
 
 A CLI tool for competitive programmers to run timed virtual contests using problems from **Codeforces**, **AtCoder**, and **LeetCode**. Problems are pulled from your unsolved pool and tracked in real time as you submit. 
 
+![Contest screen](.github/images/image1.png)
+
+
+
+![Contest screen with show_difficulties enabled](.github/images/image2.png)
+
+
+
+![Ongoing contest look](.github/images/image3.png)
+
+
+
 ---
 
 ## Features
